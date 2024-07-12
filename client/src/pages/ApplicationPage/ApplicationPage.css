@@ -10,20 +10,21 @@
   background-color: #0486aa;
   color: white;
   font-size: 22px;
-  width: 60vw;
+  width: 58vw;
   height: 5vh;
+  margin-left:10px;
 }
 
 .form-total-1{
   width: 60vw;
-  background-color: rgb(251, 248, 243);
+  background-color: #F8F9FA;
   
 }
 
 .input-width{
   width: 25vw;
   color: none;
-  background-color: rgb(251, 248, 243);
+  background-color: #F8F9FA;
   border-radius: 0.2em;
   border-width: thin;
   height: 5vh;
@@ -31,13 +32,51 @@
 
 .input-width-2{
   color: none;
-  background-color: rgb(250, 246, 239);
+  background-color: #F8F9FA;
   border-radius: 0.2em;
   border-width: thin;
   height: 5vh;
   margin-bottom: 1em;
 }
 
+span{
+ color: red;
+}
+
+input.input-width{
+  padding-left: 40px;
+}
+
+.input-widthoption{
+  padding: 40px;
+}
+
+.apply-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.apply-section label {
+  margin-right: 10px;
+}
+
+#post-select {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.thin-line {
+  border-bottom: 1px solid lightgray; 
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 /* Header CSS ______________________________________________________ */
 
@@ -78,9 +117,13 @@
   }
 
 
+
 /* GPT Styling */
 
   /* Styles __________________________________________________________________________Akshaya */
+.side-header{
+  padding-left: 10px;
+}
 
 
 

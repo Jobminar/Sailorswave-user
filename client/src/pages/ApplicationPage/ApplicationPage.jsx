@@ -15,28 +15,37 @@ const ApplicationPage = () => {
         <div className="contact-info">
           <div className="contact-item">
             <img src={emailIcon} alt="Email Icon" />
-            <span>sailorswaveshipmanagement@gmail.com</span>
+            <span1>sailorswaveshipmanagement@gmail.com</span1>
           </div>
           <div className="contact-item">
             <img src={phoneIcon} alt="Phone Icon" />
-            <span>+91 9876543210</span>
+            <span1>+91 9876543210</span1>
           </div>
         </div>
       </div>
 
       <div className="form-div">
         <div className="text-center">
-          <h4>APPLICATION FORM FOR MERCHANT NAVY</h4>
-          <h4>APPLICATION FOR ADMISSION IN MARINE TRAINING</h4>
+          <h2>APPLICATION FORM FOR MERCHANT NAVY</h2>
+          <h2>APPLICATION FOR ADMISSION IN MARINE TRAINING</h2>
         </div>
         <br />
         <form className="form-total-1">
           <br />
-          <p className="side-header">PERSONAL DETAILS</p>
+          <p className="side-header">&nbsp;&nbsp;PERSONAL DETAILS</p>
+          
+          <div className="apply-section">
+        <label htmlFor="post-select">Apply for post</label>
+        <select id="post-select">
+          <option value="" disabled selected>Select for post</option>
+        </select>
+        </div><br />
+        <div className="thin-line"></div>
+        <br />
           <div className="row container text-start">
             <div className="col">
               <div>
-                <label className="candidate-label">Candidate Name</label>
+                <label className="candidate-label">Candidate Name<span>*</span></label>
                 <br />
                 <input
                   type="text"
@@ -45,7 +54,7 @@ const ApplicationPage = () => {
                 />
               </div>
               <div>
-                <label className="candidate-label">Date of birth</label>
+                <label className="candidate-label">Date of birth<span>*</span></label>
                 <br />
                 <input
                   type="date"
@@ -65,7 +74,7 @@ const ApplicationPage = () => {
             </div>
             <div className="col">
               <div>
-                <label className="candidate-label">Father name</label>
+                <label className="candidate-label">Father name<span>*</span></label>
                 <br />
                 <input
                   type="text"
@@ -109,7 +118,7 @@ const ApplicationPage = () => {
                 />
               </div>
               <div className="form-group">
-                <label>Police station*</label>
+                <label>Police station<span>*</span></label>
                 <br />
                 <input
                   type="text"
@@ -135,7 +144,7 @@ const ApplicationPage = () => {
             </div>
             <div className="col ">
               <div className="form-group-1">
-                <label>Post office*</label>
+                <label>Post office<span>*</span></label>
                 <br />
                 <input
                   type="text"
@@ -145,7 +154,7 @@ const ApplicationPage = () => {
               </div>
 
               <div className="form-group-1">
-                <label>District*</label>
+                <label>District<span>*</span></label>
                 <br />
                 <input
                   type="text"
@@ -167,25 +176,25 @@ const ApplicationPage = () => {
           <p className="side-header">EDUCATIONAL QUALIFICATION</p>
           <div className="row container">
             <div className="col">
-              <p>Exam passed</p>
+              <p><strong>Exam passed</strong></p>
               <p className="input-width-2">10th</p>
               <p className="input-width-2">12th</p>
               <p className="input-width-2">ITI/Diploma</p>
             </div>
             <div className="col">
-              <p>School/college</p>
+              <p><strong>School/college</strong></p>
               <input type="text" className="input-width-2" />
               <input type="text" className="input-width-2" />
               <input type="text" className="input-width-2" />
             </div>
             <div className="col">
-              <p>Year of passing</p>
+              <p><strong>Year of passing</strong></p>
               <input type="text" className="input-width-2" />
               <input type="text" className="input-width-2" />
               <input type="text" className="input-width-2" />
             </div>
             <div className="col">
-              <p>Percentage%</p>
+              <p><strong>Percentage%</strong></p>
               <input type="text" className="input-width-2" />
               <input type="text" className="input-width-2" />
               <input type="text" className="input-width-2" />
